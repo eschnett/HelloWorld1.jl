@@ -1,5 +1,4 @@
 using HelloWorld1
 using Base.Test
 
-# write your own tests here
-@test 1 == 1
+@test hello().startswith("Hello")
